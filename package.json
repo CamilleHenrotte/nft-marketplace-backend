@@ -1,0 +1,22 @@
+{
+  "name": "nft-marketplace-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "node ./backend/index.js",
+    "serve-dev": "nodemon ./backend/index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.1",
+    "magic-sdk": "7.0.0",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.2.3"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "eslint": "8.14.0",
+    "eslint-config-next": "12.1.5",
+    "nodemon": "^3.1.0"
+  }
+}
